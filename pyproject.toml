@@ -1,0 +1,14 @@
+[project]
+name = "weather-notifier"
+version = "0.1.0"
+description = "pull current weather data from OpenWeatherMap"
+authors = [
+    { name = "Abraham Garcia", email = "workprocessamz@gmail.com" }
+]
+dependencies = [ #list of packages needed to run the project
+    "requests>=2.31.0"
+]
+
+[build-system] #instructions to build the project
+requires = ["setuptools", "wheel"] #requires is a list of packages needed to build the project
+build-backend = "setuptools.build_meta" #build-backend is the package that builds the project
